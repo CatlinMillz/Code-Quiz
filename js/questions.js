@@ -1,48 +1,48 @@
 // This is the question funstions that contain questions and the answers. 
 var questions = [
     { 
-        question: "How do you write 'Hello World' in an alert box?", 
+        question: "Question: What keyword is used to declare a variable in JavaScript?", 
         answers: [
-            { text: "msg('Hello World')", correct: false },
-            { text: "alert('Hello World')" , correct: true },
-            { text: "prompt('Hello World')", correct: false },
-            { text: "alertBox('Hello World')", correct: false }
+            { text: "var", correct: false },
+            { text: "let" , correct: false },
+            { text: "const", correct: false },
+            { text: "all of the above", correct: true }
         ]
     },
     { 
-        question: "Which of the following function of Array object calls a function for each element in the array?", 
+        question: "What does the === operator do in JavaScript?", 
         answers: [
-            { text: "concat()", correct: false },
-            { text: "filter()", correct: false },
-            { text: "forEach()", correct: true },
-            { text: "split()", correct: false }
+            { text: "Checks if two values are equal in value and type", correct: true },
+            { text: "Assigns a value to a variable", correct: false },
+            { text: "Compares two values for equality", correct: false },
+            { text: "Checks if two values are not equal in value and type", correct: false }
         ]
     },
     { 
-        question: "How to write an IF statement for executing some code if 'i' is NOT equal to 8?", 
+        question: "Which built-in method returns the length of a string in JavaScript?", 
         answers: [
-            { text: "if (i != 8)", correct: true },
-            { text: "if i =! 8", correct: false },
-            { text: "if (i <> 8)", correct: false },
-            { text: "if (i !=== 8)", correct: false }
+            { text: ".length()", correct: false },
+            { text: ".count()", correct: false },
+            { text: ".size()", correct: false },
+            { text: ".length", correct: true }
         ]
     },
     { 
-        question: "What is the correct way to write a JavaScript array?", 
+        question: "What does the typeof operator return in JavaScript?", 
         answers: [
-            { text: "var vegetable = (0:'kale', 1:'lettuce', 2:'spinach')", correct: false },
-            { text: "var vegetable = ['kale', 'lettuce', 'spinach']", correct: true },
-            { text: "var vegetable = (kale, lettuce, spinach)", correct: false },
-            { text: "None of the above", correct: false }
+            { text: "The type of a variable or expression", correct: true },
+            { text: "The value of a variable", correct: false },
+            { text: "The size of a variable", correct: false },
+            { text: "The length of a string", correct: false }
         ]
     },
     { 
-        question: "How do you round the number 102.456, to the nearest integer?",
+        question: "What does the forEach method do in JavaScript?",
         answers: [
-            { text: "Math.random(102.456)", correct: false },
-            { text: "Math.rnd(102.456)", correct: false },
-            { text: "round(102.456)", correct: false },
-            { text: "None of the above", correct: true }
+            { text: "Iterates over the elements of an array and executes a callback function for each element", correct: true },
+            { text: "Returns the first element of an array", correct: false },
+            { text: "Adds a new element to the end of an array", correct: false },
+            { text: "Removes the last element from an array", correct: false }
         ]
     },
 ];
